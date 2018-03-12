@@ -39,4 +39,4 @@ async def on_message(message):
 		data = c2.fetchall ()
 		await bot.send_message(message.channel, data)
 		db2.close()
-bot.run("NDIyMDg3OTQ1ODEwMzQ1OTk0.DYZ5Hw.SqfVUiuacGVhVa_EeL67FGtNB0I")
+bot.run("NDIyNzgyMjQyMzY0ODUwMTg3.DYgy6w.7H6XU4UG3CXBiW0e8sA1XW4k-1I")
