@@ -28,9 +28,6 @@ async def on_message(message):
 			db.rollback()
 		db.close()
 		await bot.delete_message(message)
-
-@bot.event
-async def on_message(message):
 	if message.content.startswith('#ch'):
 		db2 = MySQLdb.connect("sql12.freesqldatabase.com", "sql12225836", "AcTlV48YTN", "sql12225836")
 		sql2 = """SELECT text FROM conf ORDER BY RAND() LIMIT 1"""
