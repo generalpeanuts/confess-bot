@@ -4,4 +4,3 @@ aiohttp
 websockets
 requests
 mysqlclient
-sys
